@@ -31,13 +31,13 @@
     //     //devHostRegex: "\\b(staging|preview|test|dev)\\.",
     //     enableOnLocalhost: true // If false, don't show this when running on localhost
     // },
-    /*
-        developerAttribution: {
-            text: "Your organisation",
-            link: "http://www.example.com"
-        },*/
+    "developerAttribution": {
+      "text": "TerrainAI, Maynooth University",
+      "link": "https://terrainai.com/"
+  },
+
     // This is used in various text messages. You should also set <title> in index.html
-    "appName": "Terria Map",
+    "appName": "Terrain-AI",
     // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
     "brandBarElements": [
       "",
@@ -45,7 +45,7 @@
       ""
     ],
     // Shown when things go wrong.
-    "supportEmail": "help@example.com",
+    "supportEmail": "terrainai.devteam@mu.ie",
     // You probably shouldn't change this.
     "proj4ServiceBaseUrl": "proj4def/",
     // Or this
